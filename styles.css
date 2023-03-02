@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Michroma&family=PT+Serif&display=swap");
+
+@font-face {
+  font-family: "LCD Light";
+  src: url("./fonts/lcd-light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+
+  user-select: none;
+}
+
+.text-reset {
+  text-transform: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto 0;
+  width: 750px;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+section {
+  border: 1px dotted hsla(hue, saturation, lightness, alpha);
+}
+
+.red {
+  color: red;
+}
+
+.lcd {
+  font-family: "LCD Light", monospace;
+}
+
+.very-large {
+  font-size: 2em;
+  letter-spacing: 7px;
+}
+
+.large {
+  font-size: 1.5em;
+  letter-spacing: 5px;
+}
+
+#tier1 {
+  display: flex;
+}
+
+#tier2 {
+}
+
+#tier3 {
+}
+
+#memory,
+#ams {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#ams-usage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
