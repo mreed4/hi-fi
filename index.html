@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/c41c81dd84.js" crossorigin="anonymous"></script>
     <!--https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup-->
   </head>
 
@@ -14,26 +15,79 @@
     <main>
       <section id="tier1">
         <div id="memory">
-          <div id="memory-usage" class="lcd very-large text-gradient-white">1.51</div>
-          <div id="memory-usage-label text-gradient-white"><span class="text-gradient-white bold">Memory</span></div>
+          <div id="memory-usage" class="lcd very-large white">1.51</div>
+          <div id="memory-label"><span class="white bold">Memory</span></div>
         </div>
         <div id="ams">
-          <div id="ams-usage" class="lcd large text-gradient-white">3</div>
-          <div id="ams-label"><span class="text-gradient-white bold">AMS</span></div>
+          <div id="ams-usage" class="lcd large white">3</div>
+
+          <div id="ams-label"><span class="white bold">AMS</span></div>
         </div>
         <div id="peak-level">
-          <div id="peak-row3">
-            <span class="text-reset text-gradient-white">dB</span>
-            <span class="text-gradient-white">&mdash;&infin;</span>
-            <span class="text-gradient-white">&mdash;20</span>
-            <span class="text-gradient-white">&mdash;15</span>
-            <span class="text-gradient-white">&mdash;10</span>
-            <span class="text-gradient-white">&mdash;7</span>
-            <span class="text-gradient-white">&mdash;5</span>
-            <span class="text-gradient-white">&mdash;3</span>
-            <span class="text-gradient-white">&mdash;1</span>
-            <span class="red"><span>0</span> +1 +3 +5 +8</span>
-          </div>
+          <!-- Row 1 -->
+          <span id="peak-level-label" class="white bold">Peak Level Meter</span>
+          <span id="vu" class="white bold">0VU</span>
+          <span id="dolby" class="white bold"><i class="fa-solid fa-ticket"></i></span>
+          <span id="roman-numeral-i" class="red bold serif center">i/ii</span>
+          <span class="red bold serif center">iii</span>
+          <span id="roman-numeral-iv" class="red bold serif center">iv</span>
+          <span class="shim"></span>
+
+          <!-- Row 2 -->
+          <span id="dot1" class="white bold"></span>
+          <span class="white bold"></span>
+          <span id="red-underline1" class="red-underline"></span>
+          <span class="red-underline"></span>
+          <span class="red-underline"></span>
+          <span class="shim"></span>
+
+          <!-- Row 3 -->
+          <span id="left-channel" class="white bold">L</span>
+          <span class="white-bar"></span>
+          <span class="white-bar"></span>
+          <span class="white-bar"></span>
+          <span class="white-bar"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+
+          <!-- Row 4 -->
+          <span class="text-reset white bold">dB</span>
+          <span class="white bold">&mdash;<span id="infin bold">&infin;</span></span>
+          <span class="white bold">&mdash;20</span>
+          <span class="white bold">&mdash;15</span>
+          <span class="white bold">&mdash;10</span>
+          <span class="white bold">&mdash;7</span>
+          <span class="white bold">&mdash;5</span>
+          <span class="white bold">&mdash;3</span>
+          <span class="white bold">&mdash;1</span>
+          <span class="red bold">0</span>
+          <span class="red bold">+1</span>
+          <span class="red bold">+3</span>
+          <span class="red bold">+5</span>
+          <span class="red bold">+8</span>
+
+          <!-- Row 5 -->
+          <span class="white bold">R</span>
+          <span class="white-bar"></span>
+          <span class="white-bar"></span>
+          <span class="white-bar"></span>
+          <span class="white-bar"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
+          <span class="bar-blank"></span>
         </div>
       </section>
       <section id="tier2"></section>
