@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   font-family: "Karla", sans-serif;
-  user-select: none;
+  /* user-select: none; */
 }
 
 body {
@@ -127,7 +127,8 @@ section {
 }
 
 .white-bar {
-  background: radial-gradient(farthest-side at bottom left, #fff, hsla(8.6, 16.3%, 91.6%, 0.8), #fff);
+  /* background: radial-gradient(farthest-side at bottom left, #fff, hsla(8.6, 16.3%, 91.6%, 0.8), #fff); */
+  background-color: white;
   box-shadow: 0 0 4px 0 #fff;
 }
 
